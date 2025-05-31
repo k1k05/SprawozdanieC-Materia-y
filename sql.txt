@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS biblioteka;
+USE biblioteka;
+
+CREATE TABLE IF NOT EXISTS ksiazki (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tytul VARCHAR(255) NOT NULL,
+    autor VARCHAR(255) NOT NULL,
+    rok INT NOT NULL
+);
+
+INSERT INTO ksiazki (tytul, autor, rok) VALUES
+('Władca Pierścieni', 'J.R.R. Tolkien', 1954),
+('Lalka', 'Bolesław Prus', 1890),
+('Zbrodnia i kara', 'Fiodor Dostojewski', 1866),
+('Pan Tadeusz', 'Adam Mickiewicz', 1834),
+('Duma i uprzedzenie', 'Jane Austen', 1813);

@@ -1,0 +1,27 @@
+[
+  {
+    "Tresc": "Jakiego koloru jest niebo w bezchmurny dzień?",
+    "Odpowiedzi": ["Niebieski", "Zielony", "Czerwony", "Żółty"],
+    "Poprawna": 0
+  },
+  {
+    "Tresc": "Który z poniższych to liczba pierwsza?",
+    "Odpowiedzi": ["4", "6", "11", "12"],
+    "Poprawna": 2
+  },
+  {
+    "Tresc": "Stolica Polski to:",
+    "Odpowiedzi": ["Warszawa", "Kraków", "Gdańsk", "Wrocław"],
+    "Poprawna": 0
+  },
+  {
+    "Tresc": "Ile to 5 * 6?",
+    "Odpowiedzi": ["11", "30", "56", "60"],
+    "Poprawna": 1
+  },
+  {
+    "Tresc": "Które zwierzę jest ssakiem?",
+    "Odpowiedzi": ["Wąż", "Kura", "Delfin", "Żaba"],
+    "Poprawna": 2
+  }
+]
